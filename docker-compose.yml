@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  # Tên dịch vụ Vector Database
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: rag_qdrant
+    restart: always
+    ports:
+      - "6333:6333"   # Cổng REST API & Dashboard giao diện Web
+      - "6334:6334"   # Cổng gRPC (truy xuất nhanh)
+    volumes:
+      - qdrant_data:/qdrant/storage   # Lưu dữ liệu bền vững vào máy host
+    environment:
+      - QDRANT__SERVICE__ENABLE_STATIC_CONTENT=1
+
+# Định nghĩa nơi lưu trữ dữ liệu bền vững trên máy tính của bạn
+volumes:
+  qdrant_data:

@@ -1,0 +1,17 @@
+# Document Loaders (Đọc file PDF, Word, TXT)
+pypdf>=4.2.0
+python-docx>=1.1.0
+
+# Chunking & Text Splitting
+langchain-text-splitters>=0.2.0
+
+# Embedding & OpenAI Client
+langchain-openai>=0.1.0
+openai>=1.30.0
+
+# Vector Database (Qdrant Client & LangChain Integration)
+qdrant-client>=1.9.0
+langchain-community>=0.2.0
+
+# Environment variables & Utilities
+python-dotenv>=1.0.0
