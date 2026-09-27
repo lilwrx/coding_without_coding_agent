@@ -17,11 +17,11 @@
 ---
 
 ### 🟢 Ngày 2: Viết Document Loaders Module (`src/loader.py`)
-- [ ] Viết class `DocumentLoader` xử lý đọc nhiều định dạng file đầu vào: `.pdf`, `.docx`, `.txt`, `.md`.
-- [ ] Sử dụng các parser chuẩn: `PyPDFLoader` (cho PDF), `Docx2txtLoader` (cho Word), `TextLoader` (cho văn bản thuần).
-- [ ] Thêm xử lý ngoại lệ (Exception Handling): File không tồn tại, file bị khóa mật khẩu, định dạng file không hỗ trợ.
-- [ ] Thêm tính năng tự động trích xuất thông tin cơ bản: Tên file (`source`), Số trang (`page`), Ngày nạp (`created_at`).
-- [ ] *Checkpoints:* Chạy unit test/script nhỏ đọc thành công file PDF/Word mẫu và in ra số trang + metadata.
+- [*] Viết class `DocumentLoader` xử lý đọc nhiều định dạng file đầu vào: `.pdf`, `.docx`, `.txt`, `.md`.
+- [*] Sử dụng các parser chuẩn: `PyPDFLoader` (cho PDF), `Docx2txtLoader` (cho Word), `TextLoader` (cho văn bản thuần).
+- [*] Thêm xử lý ngoại lệ (Exception Handling): File không tồn tại, file bị khóa mật khẩu, định dạng file không hỗ trợ.
+- [*] Thêm tính năng tự động trích xuất thông tin cơ bản: Tên file (`source`), Số trang (`page`), Ngày nạp (`created_at`).
+- [*] *Checkpoints:* Chạy unit test/script nhỏ đọc thành công file PDF/Word mẫu và in ra số trang + metadata.
 
 ---
 
