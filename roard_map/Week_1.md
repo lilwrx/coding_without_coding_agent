@@ -26,12 +26,12 @@
 ---
 
 ### 🟢 Ngày 3: Thiết lập Chunking Strategy (`src/chunker.py`)
-- [ ] Tích hợp `RecursiveCharacterTextSplitter` với thứ tự chia nhỏ ưu tiên: `["\n\n", "\n", ".", " ", ""]`.
-- [ ] Thử nghiệm và thiết lập bộ thông số mặc định:
+- [*] Tích hợp `RecursiveCharacterTextSplitter` với thứ tự chia nhỏ ưu tiên: `["\n\n", "\n", ".", " ", ""]`.
+- [*] Thử nghiệm và thiết lập bộ thông số mặc định:
   - `chunk_size = 500` (tokens/characters)
   - `chunk_overlap = 50` (tokens/characters để giữ ngữ cảnh)
-- [ ] Bổ sung Metadata riêng cho từng chunk: `chunk_id`, `chunk_index` (vị trí đoạn văn trong file).
-- [ ] *Checkpoints:* Kiểm tra đầu ra của chunker đảm bảo không bị mất văn bản giữa các đoạn và gãy câu vô lý.
+- [*] Bổ sung Metadata riêng cho từng chunk: `chunk_id`, `chunk_index` (vị trí đoạn văn trong file).
+- [*] *Checkpoints:* Kiểm tra đầu ra của chunker đảm bảo không bị mất văn bản giữa các đoạn và gãy câu vô lý.
 
 ---
 

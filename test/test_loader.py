@@ -1,4 +1,4 @@
-from loader import DocumentLoader
+from src.loader import DocumentLoader
 import pytest
 
 @pytest.fixture
