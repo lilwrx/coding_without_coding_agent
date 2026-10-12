@@ -12,5 +12,5 @@ class TextChunker:
         )
     def split_documents(self, documents: List[Document]) -> List[Document]:
         chunks = self.splitter.split_documents(documents)
-        print(f"✂️ Đã chia thành {len(chunks)} chunks (size={self.splitter._chunk_size}, overlap={self.splitter._chunk_overlap}).")
+        print(f"Da chia thanh {len(chunks)} chunks (size={self.splitter._chunk_size}, overlap={self.splitter._chunk_overlap}).")
         return chunks
