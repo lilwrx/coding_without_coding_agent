@@ -36,11 +36,11 @@
 ---
 
 ### 🟢 Ngày 4: Embedding & Vector DB Manager (`src/vector_store.py`)
-- [ ] Tích hợp client `OpenAIEmbeddings` với model `text-embedding-3-small` (1536 dims).
-- [ ] Viết class `VectorStoreManager` kết nối với Qdrant Client SDK.
-- [ ] Viết hàm tự động khởi tạo Collection trên Qdrant nếu chưa tồn tại (Distance Metric = `COSINE`).
-- [ ] Viết hàm `add_documents` để tạo embeddings từ danh sách chunks và lưu trữ trực tiếp vào Qdrant.
-- [ ] *Checkpoints:* Mở Qdrant Dashboard xem các vector points đã được đẩy vào Collection cùng đủ thuộc tính Payload (Metadata).
+- [*] Tích hợp client `OpenAIEmbeddings` với model `text-embedding-3-small` (1536 dims).
+- [*] Viết class `VectorStoreManager` kết nối với Qdrant Client SDK.
+- [*] Viết hàm tự động khởi tạo Collection trên Qdrant nếu chưa tồn tại (Distance Metric = `COSINE`).
+- [*] Viết hàm `add_documents` để tạo embeddings từ danh sách chunks và lưu trữ trực tiếp vào Qdrant.
+- [*] *Checkpoints:* Mở Qdrant Dashboard xem các vector points đã được đẩy vào Collection cùng đủ thuộc tính Payload (Metadata).
 
 ---
 
