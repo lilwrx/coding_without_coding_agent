@@ -45,10 +45,10 @@
 ---
 
 ### 🟢 Ngày 5: Đóng gói Pipeline & Testing (`ingest.py`)
-- [ ] Tạo file script `ingest.py` ở thư mục gốc kết nối toàn bộ 3 bước: `Loader` ➔ `Chunker` ➔ `VectorStore`.
-- [ ] Thêm log thông báo chi tiết thời gian chạy và số lượng chunks được lưu ở từng giai đoạn.
-- [ ] Bỏ 2-3 tài liệu thực tế (PDF báo cáo, file Word) vào thư mục `data/` và chạy thử toàn bộ luồng.
-- [ ] *Checkpoints:* Ingestion pipeline chạy mượt mà từ đầu đến cuối không tạo lỗi, dữ liệu xuất hiện đầy đủ trên Qdrant.
+- [*] Tạo file script `ingest.py` ở thư mục gốc kết nối toàn bộ 3 bước: `Loader` ➔ `Chunker` ➔ `VectorStore`.
+- [*] Thêm log thông báo chi tiết thời gian chạy và số lượng chunks được lưu ở từng giai đoạn.
+- [*] Bỏ 2-3 tài liệu thực tế (PDF báo cáo, file Word) vào thư mục `data/` và chạy thử toàn bộ luồng.
+- [*] *Checkpoints:* Ingestion pipeline chạy mượt mà từ đầu đến cuối không tạo lỗi, dữ liệu xuất hiện đầy đủ trên Qdrant.
 
 ---
 
@@ -73,7 +73,7 @@ Nếu bạn làm xong sớm 5 ngày trên, hãy nâng cấp pipeline Ingestion l
 ---
 
 ## 🧪 Checklist Đánh giá Hoàn thành Tuần 1 (Definition of Done)
-- [ ] Chạy `python ingest.py` thành công không lỗi.
-- [ ] Kiểm tra Qdrant Dashboard thấy Collection có chứa các Vector Points.
-- [ ] Mỗi Vector Point lưu trữ đủ thông tin văn bản gốc (`page_content`) và các trường Metadata (`source`, `page`, `chunk_id`).
-- [ ] Mã nguồn được commit sạch sẽ lên Git với file `.gitignore` đã chặn file `.env` và virtualenv.
+- [*] Chạy `python ingest.py` thành công không lỗi.
+- [*] Kiểm tra Qdrant Dashboard thấy Collection có chứa các Vector Points.
+- [*] Mỗi Vector Point lưu trữ đủ thông tin văn bản gốc (`page_content`) và các trường Metadata (`source`, `page`, `chunk_id`).
+- [*] Mã nguồn được commit sạch sẽ lên Git với file `.gitignore` đã chặn file `.env` và virtualenv.
